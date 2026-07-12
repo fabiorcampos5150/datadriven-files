@@ -206,11 +206,85 @@ Gere um código em Python, para o Google Colab, que:
 
 ---
 
-## Resumo — Total de Prompts
+## Capítulo 4 — Cultura e Estratégia (Data-Driven + Data Literacy)
 
-| Capítulo | Nº de prompts | Temas |
-|---|---|---|
-| 1 — Fundamentos de Dados e Análise | 3 | Classificação de tipos de dados, EDA, visualização |
-| 2 — Fundamentos da Análise de Dados | 4 | Distribuição, outliers/IQR, correlação/pairplot, causalidade |
-| 3 — Advanced Analytics | 4 | Classificação, séries temporais, clustering, otimização |
-| **Total** | **11** | |
+### Ciclo 1 — Diagnóstico de Maturidade de Dados
+
+```
+Atue como consultor de estratégia de dados. Considerando a empresa [NOME DA EMPRESA / SETOR],
+avalie em qual dos 6 estágios da curva de maturidade de dados ela está (incluindo o novo
+estágio 6, Aumentada por IA). Para cada uma das dimensões pessoas, processos e soluções,
+descreva o estágio atual e justifique com base em evidências observáveis (ex: como decisões
+são tomadas, que treinamentos os times recebem). Termine com os 3 próximos passos para a
+empresa avançar para o próximo estágio.
+```
+
+### Ciclo 2 — Lean Inception Aplicada
+
+```
+Vamos simular uma Lean Inception para um produto fictício chamado [NOME DO PRODUTO], que
+resolve [PROBLEMA]. Para cada uma das 6 fases (preparação, imersão, prototipação, modelagem,
+roadmap, pitch), gere um resultado breve e concreto: público-alvo e escopo, funcionalidade
+principal, uma lista de 3 MVPs candidatos, um modelo de negócio com 2 metas-chave, e um
+roteiro de pitch de 5 frases.
+```
+
+### Ciclo 3 — Plano de Estratégia Data-Driven
+
+```
+Atue como diretor de dados (Chief Data Officer) de uma empresa do setor [SETOR]. Crie um
+plano de estratégia data-driven para os próximos 12 meses, cobrindo data literacy,
+disseminação da cultura, guilds/chapters e hackathons de dados. Para cada frente, sugira
+uma ação concreta para os primeiros 90 dias, o responsável típico (cargo) e uma métrica de
+sucesso. Sinalize também qual das 10 categorias de desafio (ex: resistência à mudança,
+qualidade dos dados etc.) é mais crítica para esse setor.
+```
+
+### Ciclo 4 — Diagnóstico de Data Literacy da Equipe
+
+```
+Atue como especialista em data literacy corporativo. Considerando o time de [marketing,
+vendas, operações...] com aproximadamente [Nº] pessoas, avalie o nível de data literacy
+dessa equipe hoje (resistente, consciente, praticante ou fluente). Sugira uma trilha de
+capacitação com 3 etapas, cada uma com um objetivo de aprendizagem, um formato (workshop,
+microlearning, tutor de IA) e uma forma simples de medir o progresso.
+```
+
+---
+
+## Capítulo 5 — Desenvolvendo um Plano de Implementação (Analytics com uso de IA)
+
+### Ciclo Prático 1 — Mapeando Fundamentos e Técnicas
+
+```
+Sou iniciante em dados e estou estudando Analytics com uso de IA.
+
+Escolhi este problema de negócio: [descreva seu cenário: ex. priorizar a régua de cobrança
+em uma fintech].
+
+Usando a arquitetura dado → orquestração → LLM/agente → insight → ação, explique cada etapa
+com uma analogia do dia a dia:
+1. Que dado eu precisaria ter disponível
+2. O que a etapa de orquestração faria com esse dado
+3. Que tipo de agente ou LLM eu usaria e por quê
+4. Um exemplo de insight que essa análise poderia gerar
+5. Uma ação de negócio concreta que esse insight sustentaria
+
+Responda em tópicos curtos, um para cada etapa.
+```
+
+### Ciclo Prático 2 — Aplicando o Modelo Mental Completo
+
+```
+Quero desenhar um produto de Analytics com IA usando o modelo mental Pergunta de negócio →
+Dado disponível → Agente/Modelo → Insight → Decisão.
+
+Minha pergunta de negócio é: [escreva a pergunta que você levaria para a IA]
+
+Para cada uma das cinco etapas do modelo mental, gere:
+1. Uma pergunta-guia que eu deveria me fazer
+2. Uma resposta provável para o meu cenário, em 1-2 frases
+3. Um risco ou limite que eu deveria considerar nessa etapa
+
+Formate a resposta como uma lista numerada de 1 a 5, uma etapa por vez, começando em dados.
+```
