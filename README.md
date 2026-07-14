@@ -32,6 +32,8 @@ tipo (dtype) de cada coluna.
 Estou no Google Colab explorando o dataset Titanic, já embutido na
 biblioteca seaborn.
 
+Traga a didática da abordagem EDA (Exploratory Data Analysis)
+
 Gere um código Python que carregue o dataset com sns.load_dataset('titanic'),
 mostre as 5 primeiras linhas, um resumo estatístico das colunas numéricas e
 a contagem de valores nulos por coluna, com comentários curtos explicando
